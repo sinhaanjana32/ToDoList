@@ -1,0 +1,62 @@
+body {
+  background-color: lightseagreen;
+}
+
+
+.App {
+ background-color: pink;
+ min-height: 500px;
+ width: 400px;
+ margin: 40px, auto;
+ text-align: center;
+ border-radius: 5px;
+ box-shadow: 5px 6px 5px  #888888;
+ 
+}
+
+.container{
+  justify-content: center;
+  overflow: hidden;
+  margin-top: 40px;
+  align-items: center;
+  display: flex;
+}
+
+h1{
+  color: darkblue;
+  font-family: fantasy;
+}
+
+
+#todoform input{ 
+ background-color: lightseagreen;
+ border: 0;
+ width: 200px;
+ height: 50px;
+ padding: 10px 20px;
+ margin: 20px;
+ font-size:  18px;
+ border-radius: 10px;
+ color: #fff;
+}
+
+
+#todoform input::placeholder{
+  color: azure;
+}
+
+#todoform input:focus {
+  outline: none;
+}
+
+#todoform button {
+  height: 30px;
+  width: 80px;
+  border-radius:5px;
+  border:0;
+  background-color:lightyellow;
+  cursor: pointer;
+  font-weight: bolder;
+
+
+}
